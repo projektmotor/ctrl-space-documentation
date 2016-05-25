@@ -1,8 +1,8 @@
 # FAQ - Frequently Asked Questions
 
-## Can I use Ctrl-Space with a 32 bit operating system?
+## Can I use CTRL+SPACE with a 32 bit operating system?
 
-Yes you can! But you will be limited to a maximum Ctrl-Space project size of less than 4GB due to architectonical reasons.
+Yes you can! But you will be limited to a maximum CTRL+SPACE project size of less than 4GB due to architectonical reasons.
 To get it work you have to change param Xmx to a lower value:
 
 ```

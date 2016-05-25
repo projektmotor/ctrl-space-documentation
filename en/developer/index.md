@@ -1,4 +1,4 @@
-# Ctrl-Space Developer Documentation
+# CTRL+SPACE Developer Documentation
 
 ## Target Group
 

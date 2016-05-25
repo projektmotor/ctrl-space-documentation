@@ -1,11 +1,11 @@
 # The SlimageViewer
 
-To speed up your templating process, Ctrl-Space comes with a component called SlimageViewer. It allows you opening Photoshop
-files directly inside Ctrl-Space.
+To speed up your templating process, CTRL+SPACE comes with a component called SlimageViewer. It allows you opening Photoshop
+files directly inside CTRL+SPACE.
 
 Stop. This not really the truth. The Photoshop file format is quite complex and not very suitable for use in external
 tools. The SlimageViewer component does not deal with Photoshop files directly, instead it uses its own file format called
-**Slimage** (**S**mall **L**ayered **Image**). This one is optimized for use in Ctrl-Space and for the retrieval of layer 
+**CSImage**. This one is optimized for use in CTRL+SPACE and for the retrieval of layer 
 informations.
 
 * [Photoshop to Slimage conversion](#Photoshop_to_Slimage_conversion)

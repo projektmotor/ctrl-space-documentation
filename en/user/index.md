@@ -1,4 +1,4 @@
-# Ctrl-Space User Documentation #
+# CTRL+SPACE User Documentation #
 
 ## Target Group ##
 
@@ -7,5 +7,5 @@ If you plan to write Blueprints on your own, the [Developer Documentation](/en/d
 
 ## Content ##
 
-These pages will guide you through the steps of Ctrl-Space installation and give you a small tutorial on how to use the
+These pages will guide you through the steps of CTRL+SPACE installation and give you a small tutorial on how to use the
 core features. They show you how to use Blueprints from the Standard Blueprint Library (SBL) and the ImageViewer.

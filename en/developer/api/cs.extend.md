@@ -2,7 +2,7 @@
 
 ### cs.extend.addAutocompletion(configuration)
 
-* **Description**: Extend Ctrl-Space autocompletions. 
+* **Description**: Extend CTRL+SPACE autocompletions. 
 
 * **Parameter**:
     * *Object* configuration - configuration params:

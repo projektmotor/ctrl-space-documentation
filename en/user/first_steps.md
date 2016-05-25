@@ -1,6 +1,6 @@
-# Your First Steps with Ctrl-Space
+# Your First Steps with CTRL+SPACE
 
-To explain the core features of Ctrl-Space, we will walk through a little tutorial. It should cover a very basic
+To explain the core features of CTRL+SPACE, we will walk through a little tutorial. It should cover a very basic
 templating workflow, including the creation of project, import of a Photoshop file, using some SlimageViewer tools and hydrate 
 image data with Blueprints.
 
@@ -11,19 +11,19 @@ image data with Blueprints.
 
 ## Create a new Project
 
-When you start working with Ctrl-Space, create a new Project. To open the
+When you start working with CTRL+SPACE, create a new Project. To open the
 project dialog, go to `File > New Project`. Next you should choose the type of project you want to create. Currently 
 HTML5 projects are available. To keep this tutorial as simple as possible, we will choose a basic `HTML5` project
 and click next.
 
-![Create a new Project Ctrl-Space - choose type of project](/images/first_steps_create_project.png)
+![Create a new Project CTRL+SPACE - choose type of project](/images/first_steps_create_project.png)
 
 Now the project location and name has to be set. At this point we decide where all the project data should be stored. 
 In our example we will store the project data under `/home/cs/Workspace` and set the project name to `Ctrl-Space-Tutorial`.
 If you would like to import some JavaScript resources (jQuery, Angular, ...) or configure some further project details, 
 you can click `next`. If there is no need for this, you can finish the project creating and click `finish`.
 
-![Create a new Project Ctrl-Space - choose project path](/images/first_steps_create_project_path.png)
+![Create a new Project CTRL+SPACE - choose project path](/images/first_steps_create_project_path.png)
 
 ## Import Graphics
 
@@ -33,7 +33,7 @@ If you would like to go deeper, you can go on reading the chapter [The SlimageVi
 
 ## Using the SlimageViewer
 
-One of the most important Ctrl-Space components for templating is the SlimageViewer. You can use it to view the graphics 
+One of the most important CTRL+SPACE components for templating is the SlimageViewer. You can use it to view the graphics 
 and select layers you need informations from. Therefor open a Slimage via Project Explorer. Activate the 
 `layer selection mode` and click on the layer you want to select - just as you would use Photoshop.
  
@@ -61,11 +61,11 @@ Thats it! Now you are ready to work with this layer, hydrate information about i
 
 ## Hydrate Imagedata using Blueprints ##
 
-One of the most important features of Ctrl-Space is reducing time and trouble you usually spend to
+One of the most important features of CTRL+SPACE is reducing time and trouble you usually spend to
 extract graphic data when building a template based on a PSD file. For example by measuring margins and paddings, extracting color codes and exporting images as assets.
 This doesn't just take a lot of time, let`s be honest - this sucks!
 
-Ctrl-Space comes with a default Blueprint library, making the relevant meta data available directly in the css/html code completion - see
+CTRL+SPACE comes with a default Blueprint library, making the relevant meta data available directly in the css/html code completion - see
 [Standard Blueprint Library (SBL)](/en/user/standard_blueprint_library.md).
 
 In the previous chapter we created a new layer called `rss icon`. Now we want to create a image-tag inside a 
@@ -80,7 +80,7 @@ Coming soon!
 Now we want to get the margin between the top of the image and the `rss icon` layer.
 To achieve this, you have to select the `rss icon` layer in the SlimageViewer again. Open the HTML file your image was placed in and add the 
 class `sample-image` to the image-tag. Now switch to your CSS file and create the CSS selector`.sample-image`. Open the the code completion
-by pressing `ctrl + space`, select the `margin-top` code completion and hit the `return` key.
+by pressing `Ctrl + Space`, select the `margin-top` code completion and hit the `return` key.
 
 ![Hydrate Imagedata with Blueprints - Add margin-top via CSS](/images/first_steps_blueprint_add_margin.png)
 

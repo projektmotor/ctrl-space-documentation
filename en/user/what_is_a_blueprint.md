@@ -1,5 +1,5 @@
 
-# What is a Ctrl-Space Blueprint? #
+# What is a CTRL+SPACE Blueprint? #
 
 You know Smartphone apps? Good, Blueprints are like apps that extend the Smartphone OS, though they are not running on an Operating System but on an IDE! The IDE is the OS.
 
@@ -21,9 +21,12 @@ So its this Hierarchy:
 
 ## Code Completion Simplifiers ##
 
-A Completion Simplifier extends the code completion window of a certain editor (HTML/CSS) and lets you implement your own tools.
-When you hit ctrl+space inside an HTML/CSS editor, a code completion window appears. With CC Simplifiers appear there, too. You can insert code at the current caret position that was generated via JavaScript.
-The Blueprint API provides access to opened files and their models as well a selections and many other things (see [Developer doc](/developer/api/index.md))
+A code completion Simplifier extends the code completion window of a certain editor (HTML/CSS) and lets you implement your own tools.
+
+When you hit Ctrl + Space inside an HTML/CSS editor, the code completion window appears - including all the loaded code completion Simplifiers.
+By using this kind of Simplifiers, you can insert any code **you** want at the current caret position. All Simplifiers are written in JavaScript,
+most of them use the CTRL+SPACE Blueprint API. It provides access to opened files and their models, as well as selections and many other things 
+(see [Developer doc](/developer/api/index.md)).
 
 ![Execute Blueprints by Code Completion](/images/sbl_code_completion_simplifier.png)
 
@@ -40,7 +43,7 @@ If not done yet, you can open the Blueprint Explorer via `Window > Blueprint Exp
 
 ## The Standard Blueprint Library (SBL) ##
 
-To enjoy the power of Ctrl-Space, the basic version comes with some predefined Blueprints - the Standard Blueprint Library.
+To enjoy the power of CTRL+SPACE, the basic version comes with some predefined Blueprints - the Standard Blueprint Library.
 They cover very basic usescases, for example reading a margin value from a CSImage file or create images from it.
 You can see all currently available Blueprints of the SBL down on this page.
 

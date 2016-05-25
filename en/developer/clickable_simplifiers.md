@@ -1,4 +1,4 @@
-# Ctrl-Space Clickable Simplifiers
+# CTRL+SPACE Clickable Simplifiers
 
 Clickable Simplifiers are very useful if you want to automate complex tasks. These tasks could either end up in multiple
 changes or do some background work which doesn't effect your project files directly. To execute those Blueprints the user

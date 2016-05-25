@@ -1,4 +1,4 @@
-# Ctrl-Space Code Completion Simplifiers
+# CTRL+SPACE Code Completion Simplifiers
 
 With CC Simplifiers you can insert code directly at the cursor position or you can just launch any code you want without inserting.
 Or access the underlying DOM of the current file and do your modifications there.

@@ -1,4 +1,4 @@
-# The first Ctrl-Space Blueprint
+# The first CTRL+SPACE Blueprint
 
 Writing a Blueprint is not really a rocket science. On this page we will walk through a little tutorial. It'll show
 how to create a simple Code Completion Simplifier named `blueprint-tutorial`, which is going to read some Slimage data and generates a bunch of
@@ -9,8 +9,8 @@ CSS properties.
 Creating a new Blueprint is quite simple. Just click on the add button inside the Blueprint Explorer window and enter a
 name for the Blueprint.
 
-![First Ctrl-Space Blueprint - create](/images/first_blueprint_create_button.png "First Ctrl-Space Blueprint - create")
-![First Ctrl-Space Blueprint - set name](/images/first_blueprint_create_name.png "First Ctrl-Space Blueprint - set name")
+![First CTRL+SPACE Blueprint - create](/images/first_blueprint_create_button.png "First CTRL+SPACE Blueprint - create")
+![First CTRL+SPACE Blueprint - set name](/images/first_blueprint_create_name.png "First CTRL+SPACE Blueprint - set name")
 
 The Blueprint Explorer tree is reloaded afterwards. Expand the `blueprints` node and you will see your created blueprint
 as a new tree node.
@@ -20,7 +20,7 @@ as a new tree node.
 You may have already noticed that the new Blueprint is not just a single file. Every Blueprints has a base structure, which 
 consists of:
 
-![First Ctrl-Space Blueprint - the structure](/images/first_blueprint_structure.png "First Ctrl-Space Blueprint - the structure")
+![First CTRL+SPACE Blueprint - the structure](/images/first_blueprint_structure.png "First CTRL+SPACE Blueprint - the structure")
 
 * a list of executable simplifiers (provided by Clickable Simplifiers)
 * `files` folder which contains
@@ -29,7 +29,7 @@ consists of:
 
 > **Note:** The simplifier `simplifier sample` would not be created in your case. It is just shown fpr demonstration purposes.
 
-## Extend Ctrl-Space Code Completions
+## Extend CTRL+SPACE Code Completions
 
 Now all the groundwork is done, we can start adding some logic. In our case we would like to extend the CSS code completions
 to add width & height of a layer in one step. Therefor open the the `main.js` file and extend the code completions by adding
@@ -52,7 +52,7 @@ We extended the code completions by calling the `cs.extend.addAutocompletion` me
 The only thing we have to do now, is reloading the Blueprint library and our new Blueprint will be available in any CSS
 editor window. 
 
-![First Ctrl-Space Blueprint - code completion](/images/first_blueprint_code_completion_available.png "First Ctrl-Space Blueprint - code completion")
+![First CTRL+SPACE Blueprint - code completion](/images/first_blueprint_code_completion_available.png "First CTRL+SPACE Blueprint - code completion")
 
 > **Note:** Every time you changed a Blueprint, you have to reload the Blueprint Library to let the changes take effect.
 

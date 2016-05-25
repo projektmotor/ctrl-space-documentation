@@ -70,10 +70,10 @@ for (var i in selectedLayers) {
 
 ## Creating Slimage Instances
 
-Ctrl-Space could be used in two directions. The first (and common) one is to open/import any kind of Slimage and hydrate
+CTRL+SPACE could be used in two directions. The first (and common) one is to open/import any kind of Slimage and hydrate
 all the information you need into your template. The other one is to produce some graphics, based on a set of rules, and store it
 as Slimage or regular image file (JPEG, PNG, GIF). For example if you have to generate similar banners 
-over and over again, you can write the rules as a Blueprint and let Ctrl-Space generate all your banners.
+over and over again, you can write the rules as a Blueprint and let CTRL+SPACE generate all your banners.
 
 The creation of new Slimage instances could be done in multiple ways. This depends on your input data.
 
