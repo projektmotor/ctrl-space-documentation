@@ -21,4 +21,4 @@
         * [cs.panel.css](/en/developer/api/cs.panel.css.md "The CTRL+SPACE Blueprint API - cs.panel.css")
         * [cs.panel.html](/en/developer/api/cs.panel.html.md "The CTRL+SPACE Blueprint API - cs.panel.html")
         * [cs.panel.image](/en/developer/api/cs.panel.image.md "The CTRL+SPACE Blueprint API - cs.panel.image")
-* [FAQ](/en/faq/index.md)
+* [FAQ](/en/faq/index.md "CTRL+SPACE FAQs")
