@@ -315,7 +315,7 @@
 * **Description**: Set superior SmallLayeredImage.
 
 * **Parameter**:
-    * *cs.obj.SmallLayeredImage* smallLayeredImage: slimage to set
+    * *cs.obj.SmallLayeredImage* smallLayeredImage: CSImage to set
 
 * **Return**: *cs.obj.SlimLayer*
 

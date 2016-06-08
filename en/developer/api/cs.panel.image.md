@@ -10,16 +10,16 @@
 
 ### cs.panel.image.close(smallLayeredImage)
 
-* **Description**: Close SlimageViewer for SmallLayeredImage.
+* **Description**: Close CSImageViewer for SmallLayeredImage.
 
 * **Parameter**:
-    * *cs.obj.SmallLayeredImage* smallLayeredImage: slimage to close
+    * *cs.obj.SmallLayeredImage* smallLayeredImage: CSImage to close
 
 * **Return**: null
 
 ### cs.panel.image.drawCircle(center, radius, color)
 
-* **Description**: Draw circle into active SlimageViewer.
+* **Description**: Draw circle into active CSImageViewer.
 
 * **Parameter**:
     * *object* center: object with `x` & `y` property
@@ -30,7 +30,7 @@
 
 ### cs.panel.image.drawLine(x1, y1, x2, y2, label, color)
 
-* **Description**: Draw line into active SlimageViewer.
+* **Description**: Draw line into active CSImageViewer.
 
 * **Parameter**:
     * *integer* x1: horizontal start
@@ -44,7 +44,7 @@
 
 ### cs.panel.image.drawRectangle(x, y, width, height)
 
-* **Description**: Draw rectangle into active SlimageViewer.
+* **Description**: Draw rectangle into active CSImageViewer.
 
 * **Parameter**:
     * *integer* x: horizontal offset
@@ -56,7 +56,7 @@
 
 ### cs.panel.image.drawText(x, y, text, color)
 
-* **Description**: Draw text into active SlimageViewer.
+* **Description**: Draw text into active CSImageViewer.
 
 * **Parameter**:
     * *integer* x: horizontal offset
@@ -66,9 +66,9 @@
 
 * **Return**: null
 
-### cs.panel.image.getActiveSlimage()
+### cs.panel.image.getActiveCSImage()
 
-* **Description**: Get the currently active slimage model object (SmallLayeredImage).
+* **Description**: Get the currently active CSImage model object (SmallLayeredImage).
 
 * **Parameter**: none
 
@@ -76,18 +76,18 @@
 
 ### cs.panel.image.open(smallLayeredImage)
 
-* **Description**: Opens a SmallLayeredImage in SlimageViewer.
+* **Description**: Opens a SmallLayeredImage in CSImageViewer.
 
 * **Parameter**:
-    * *cs.obj.SmallLayereImage* smallLayeredImage: slimage to open in editor
+    * *cs.obj.SmallLayereImage* smallLayeredImage: CSImage to open in editor
 
 * **Return**: null
 
-### cs.panel.image.setActiveSlimage(smallLayeredImage)
+### cs.panel.image.setActiveCSImage(smallLayeredImage)
 
 * **Description**: Set the currently active SmallLayeredImage.
 
 * **Parameter**:
-    * *cs.obj.SmallLayereImage* smallLayeredImage: slimage to set active
+    * *cs.obj.SmallLayereImage* smallLayeredImage: CSImage to set active
 
 * **Return**: null

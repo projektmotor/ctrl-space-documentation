@@ -2,7 +2,7 @@
 
 ### cs.obj.SmallLayeredImage(configuration)
 
-* **Description**: Constructor for cs.obj.SmallLayeredImage. Could be used with optional configuration parameter. If no param is given, empty Slimage is created. 
+* **Description**: Constructor for cs.obj.SmallLayeredImage. Could be used with optional configuration parameter. If no param is given, empty CSImage is created.
 
 * **Parameter**:
     * *Object* configuration - configuration params:
