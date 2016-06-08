@@ -21,8 +21,7 @@ A Blueprint is alway contained inside a Blueprint Library Project which is basic
 ## Extend CTRL+SPACE Code Completions
 
 Now all the groundwork is done, we can start adding some logic. In our case we would like to extend the CSS code completions.
-To add width & height of a layer in one step. Therefor open the the `main.js` file and extend the code completions by adding
-the folling JavaScript.
+To add width & height of a layer in one step. Therefor open the the `main.js` file and extend the code completions by pressing ctrl+space and select "Code Completion Extension" in the popping up code completion window. Press Enter and you'll be asked what name your completion should have and in which editors it should appear (HTML/CSS/JS). 
  
 ```javascript
 /* global cs */
@@ -38,8 +37,7 @@ cs.extend.addAutocompletion({
 
 We extended the code completions by calling the `cs.extend.addAutocompletion` method. For details go to [Code Completion Simplifier](/en/developer/code_completion_simplifiers.md).
 
-The only thing we have to do now, is reloading the Blueprint library and our new Blueprint will be available in any CSS
-editor window. 
+The only thing we have to do now, is reloading the Blueprint library (usually done automatically) and the new Blueprint will be available in any CSS editor window. 
 
 ![First CTRL+SPACE Blueprint - code completion](/images/first_blueprint_code_completion_available.png "First CTRL+SPACE Blueprint - code completion")
 
@@ -50,7 +48,7 @@ editor window.
 Our Code Completion Simplifiers is available now. We can start extracting some layer information and generate CSS properties
 according to the information.
 
-To achieve this we have to edit the `onSubmit` callback and add some code like this:
+To achieve this we have to edit the `onSubmit` callback and open the js code completion by pressing ctrl+space. Select Code Completion Extension and the following code appears:
 
 ```javascript
 /* global cs */
