@@ -6,33 +6,22 @@ CSS properties.
 
 ## Create a new Blueprint
 
-Creating a new Blueprint is quite simple. Just click on the add button inside the Blueprint Explorer window and enter a
-name for the Blueprint.
+Click File->new Project. Select "CTRLSPACE->CTRL+SPACE Blueprint Library Project" and enter all necessary information. 
 
-![First CTRL+SPACE Blueprint - create](/images/first_blueprint_create_button.png "First CTRL+SPACE Blueprint - create")
-![First CTRL+SPACE Blueprint - set name](/images/first_blueprint_create_name.png "First CTRL+SPACE Blueprint - set name")
+A new projects opens up.
 
-The Blueprint Explorer tree is reloaded afterwards. Expand the `blueprints` node and you will see your created blueprint
-as a new tree node.
+Right click on the project, click "Create Blueprint" in the context menu.
+Enter the fully qualified Blueprint name in the popup input.
+For Example: org.cs.SampleBlueprint will create a main.js file in public_html/org/cs/SampleBlueprint/main.js.
 
 ### Blueprint Structure
 
-You may have already noticed that the new Blueprint is not just a single file. Every Blueprints has a base structure, which 
-consists of:
-
-![First CTRL+SPACE Blueprint - the structure](/images/first_blueprint_structure.png "First CTRL+SPACE Blueprint - the structure")
-
-* a list of executable simplifiers (provided by Clickable Simplifiers)
-* `files` folder which contains
-    * `manifest.csm` file specifying some metadata like Blueprint version and Blueprint engine version
-    * `main.js` point to hook in business logic
-
-> **Note:** The simplifier `simplifier sample` would not be created in your case. It is just shown fpr demonstration purposes.
+A Blueprint is alway contained inside a Blueprint Library Project which is basically a NetBeans HTML5 Project with some special options like loading priority which tells the blueprint engine when to load the Library - either at the initial stage or later. A Bleurpint Library on initial stage is called a bridge library because that's the place to wrap up the underlying Java API and provide global variables for all secondary libraries.
 
 ## Extend CTRL+SPACE Code Completions
 
-Now all the groundwork is done, we can start adding some logic. In our case we would like to extend the CSS code completions
-to add width & height of a layer in one step. Therefor open the the `main.js` file and extend the code completions by adding
+Now all the groundwork is done, we can start adding some logic. In our case we would like to extend the CSS code completions.
+To add width & height of a layer in one step. Therefor open the the `main.js` file and extend the code completions by adding
 the folling JavaScript.
  
 ```javascript
