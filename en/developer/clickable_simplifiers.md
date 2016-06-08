@@ -42,7 +42,7 @@ Working with the CSS model normally needs two file objects: [`cs.obj.CssDocument
 and [`cs.obj.CssNode`](/en/developer/api/cs.obj.CssNode.md), where the `cs.obj.CssNode` objects are child elements of
 `cs.obj.CssDocument` and of itself.
 
-> **NOTICE**: A CSS node could either be a selector or a styling property.
+> **NOTICE**: A CSS node can either be a selector or a styling property.
 
 #### Tree Traversal
 
@@ -65,11 +65,11 @@ Blueprint execution. The Clickable Simplifier can make use of these selections.
 
 ```JavaScript
 var
-    activeCss = cs.panel.css.getActiveCss();
+    activeCss = cs.panel.css.getActiveCSSDocument();
     selectedNodes = activeCss.getSelectedNodes();
 ```
 
-* `cs.panel.css.getActiveCss()`: retrieve the active CSS document (cs.obj.CssDocument)
+* `cs.panel.css.getActiveCSSDocument()`: retrieve the active CSS document (cs.obj.CssDocument)
 * `activeCss.getSelectedNodes()`: retrieve selected CSS nodes (cs.obj.CssNode) as array from active CSS document 
 
 Of course you can walk through any CssDocument instance and make use of the tree traversal methods
@@ -84,7 +84,7 @@ have a look on a little example.
  
 ```JavaScript
 var
-    selectedNodes = cs.panel.css.getActiveCss().getSelectedNodes(),
+    selectedNodes = cs.panel.css.getActiveCSSDocument().getSelectedNodes(),
     insertNode = new cs.obj.CssNode({content: ".ctrl-space-tutorial {\n\tfont-size:1.1em;\n}"});
 
 for (var index in selectedNodes) {
@@ -107,7 +107,7 @@ The following example, reads the selected property nodes and adds a `;` if this 
 
 ```JavaScript
 var
-    selectedNodes = cs.panel.css.getActiveCss().getSelectedNodes(),
+    selectedNodes = cs.panel.css.getActiveCSSDocument().getSelectedNodes(),
     nodeContent;
 
 for (var index in selectedNodes) {
@@ -134,7 +134,7 @@ done, the `delete()` method would do the job.
 
 ```JavaScript
 var
-    selectedNodes = cs.panel.css.getActiveCss().getSelectedNodes();
+    selectedNodes = cs.panel.css.getActiveCSSDocument().getSelectedNodes();
 
 for (var index in selectedNodes) {
      selectedNodes[index].delete();
@@ -171,7 +171,7 @@ you all the nodes matching your selector string.
 
 ```JavaScript
 var
-    activeDocument = cs.panel.html.getActiveHtml(),
+    activeDocument = cs.panel.html.getActiveHTMLDocument(),
     headlines = activeDocument.getChildrenByCSS('h1');
 ```
 
@@ -183,7 +183,7 @@ you have done this, call `getSelectedNodes()` and you are fine.
 
 ```JavaScript
 var
-    activeDocument = cs.panel.html.getActiveHtml(),
+    activeDocument = cs.panel.html.getActiveHTMLDocument(),
     selectedNodes = activeDocument.getSelectedNodes();
 ```
  
@@ -208,7 +208,7 @@ The node can easily be added to the tree with one of the following methods:
 ```JavaScript
 var
     node = cs.obj.HtmlNode({content: '<a href="#">anchor-link</a>'}),
-    selectedNodes =  cs.panel.html.getActiveHtml().getSelectedNodes();
+    selectedNodes =  cs.panel.html.getActiveHTMLDocument().getSelectedNodes();
 
 for (var index in selectedNodes) {
     selectedNodes[index].insertBehind(node.clone());
@@ -228,7 +228,7 @@ list under [Developer > API > cs.obj.HtmlNode](/en/developer/api/cs.obj.HtmlNode
 
 ```JavaScript
 var
-    selectedNodes =  cs.panel.html.getActiveHtml().getSelectedNodes();
+    selectedNodes =  cs.panel.html.getActiveHTML().getSelectedNodes();
 
 for (var index in selectedNodes) {
     selectedNodes[index].setNodeName('div');
@@ -247,7 +247,7 @@ call `delete()` on it.
 
 ```JavaScript
 var
-    selectedNodes =  cs.panel.html.getActiveHtml().getSelectedNodes();
+    selectedNodes =  cs.panel.html.getActiveHTMLDocument().getSelectedNodes();
 
 for (var index in selectedNodes) {
     selectedNodes[index].delete();

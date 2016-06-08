@@ -1,6 +1,6 @@
 # CTRL+SPACE Installation #
 
-Before installing CTRL+SPACE you have to download the latest version of CTRL+SPACE from [the Download-Page](http://ctrl-space.projektmotor.de).
+Before installing CTRL+SPACE you have to download the latest version of CTRL+SPACE from [the Download-Page](https://ctrl-space-ide.com).
 CTRL+SPACE is available for Linux, Mac and Windows.
 
 ## Pre-Installation Requirements ##
@@ -124,8 +124,7 @@ During conversion all layers inside a PSD file will be rasterized (including eff
 Meta information about the layers (position, size, text, text styling, ...) will be stored in the XML meta file of the archive.
 
 To make your life easier we built a small Java application to communicate between a CTRL+SPACE instance an a Windwos PC running Photoshop.
-When opening a PSD file in CTRL+SPACE, the converter server will be called, PSD file will be uploaded and after converting it to CSImage 
-it's send beck to your CTRL+SPACE instance and automatically opened.
+When opening a PSD file in CTRL+SPACE, the converter server will be called, PSD file will be uploaded and after converting it to CSImage it's send beck to your CTRL+SPACE instance and automatically opened.
 
 This way you can remotely convert PSD files on one Windows machine for all CTRL+SPACE clients of your company.
 

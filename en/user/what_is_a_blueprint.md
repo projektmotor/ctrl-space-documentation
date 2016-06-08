@@ -21,12 +21,9 @@ So its this Hierarchy:
 
 ## Code Completion Simplifiers ##
 
-A code completion Simplifier extends the code completion window of a certain editor (HTML/CSS) and lets you implement your own tools.
-
-When you hit Ctrl + Space inside an HTML/CSS editor, the code completion window appears - including all the loaded code completion Simplifiers.
-By using this kind of Simplifiers, you can insert any code **you** want at the current caret position. All Simplifiers are written in JavaScript,
-most of them use the CTRL+SPACE Blueprint API. It provides access to opened files and their models, as well as selections and many other things 
-(see [Developer doc](/developer/api/index.md)).
+A Completion Simplifier extends the code completion window of a certain editor (HTML/CSS) and lets you implement your own tools.
+When you hit ctrl+space inside an HTML/CSS editor, a code completion window appears. With CC Simplifiers appear there, too. You can insert code at the current caret position that was generated via JavaScript.
+The Blueprint API provides access to opened files and their models as well a selections and many other things (see [Developer doc](/developer/api/index.md))
 
 ![Execute Blueprints by Code Completion](/images/sbl_code_completion_simplifier.png)
 
