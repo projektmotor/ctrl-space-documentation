@@ -11,7 +11,7 @@
     * [First Blueprint](/en/developer/first_blueprint.md "Your first CTRL+SPACE Blueprint")
     * [Code Completion Simplifiers](/en/developer/code_completion_simplifiers.md "Create CTRL+SPACE CodeCompletion Simplifiers")
     * [Clickable Simplifiers](/en/developer/clickable_simplifiers.md "Create Clickable Simplifiers")
-    * [Slimages & SlimageViewer](/en/developer/CSImages_and_CSImageViewer.md "What can be done with Slimages and the SlimageViewer")
+    * [CSImages & CSImageViewer](/en/developer/CSImages_and_CSImageViewer.md "What can be done with CSImages and the CSImageViewer")
     * [Blueprint-API](/en/developer/api/index.md "The CTRL+SPACE Blueprint API")
         * [cs.console](/en/developer/api/cs.console.md "The CTRL+SPACE Blueprint API - cs.console")
         * [cs.extend](/en/developer/api/cs.extend.md "The CTRL+SPACE Blueprint API - cs.extend")
