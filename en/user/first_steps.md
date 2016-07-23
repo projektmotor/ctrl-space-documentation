@@ -53,7 +53,7 @@ merging. If you need Information about the other tools available in the CSImageV
 ![Using the ImageViewer - merged layer name](/images/first_steps_CSImage_viewer_merge_layer_name.png)
 
 In our example, the RSS icon consists of two layers. The white circle and the icon itself. Later in this tutorial we want to 
-save this RSS icon as image. To achive this, we have to merge the two layers into one single layer, which is than exportet as
+save this RSS icon as image. To achive this, we have to merge the two layers into one single layer, which is then exported as
 a new asset. How does it work? First we have to select both layers by keeping the `CTRL` key pressed during selection - just like in Photoshop. Now we only need 
 to press the `Layer Merge` button and give the new layer a name - in this example `rss icon`.
 
