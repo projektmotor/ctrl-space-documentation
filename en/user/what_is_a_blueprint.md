@@ -46,38 +46,39 @@ You can see all currently available Blueprints of the SBL down on this page.
 
 ### Code Completion (CSS) ###
 
+
 |Background||
-|-|-|
+|----------|---|
 | **background-color (HEX)** | get the layer color as HEX value (e.g. background-color: #000000; |
 | **background-color (RGB)** | get the layer color as RGB value (e.g. background-color: rgb(0,0,0); |
 | **background-image** | save the layer as background image and write a css property including the path (e.g. background-image: url(/images/example.jpg); |
 
 |Dimension||
-|-|-|
+|----------|---|
 | **width** | get width of the selected layer (e.g. width: 100px;) |
 | **height** | get width of the selected layer (e.g. height: 100px;) |
 
 |FONT||
-|-|-|
+|----------|---|
 | **font-family** | get font name of the selected layer (e.g. font-family: Arial; |
 | **font-color** | get font color of the selected layer (e.g. font-color: rgb(0,0,0); |
 
 |Margin||
-|-|-|
+|----------|---|
 | **margin-left** | get left margin of one layer to left image border order between two layers |
 | **margin-right** | get right margin of one layer to right image border order between two layers |
 | **margin-top** | get top margin of one layer to top image border order between two layers |
 | **margin-bottom** | get bottom margin of one layer to bottom image border order between two layers |
 
 |Padding||
-|-|-|
+|----------|---|
 | **padding-left** | get left padding of one layer to left image border order between two layers |
 | **padding-right** | get right padding of one layer to right image border order between two layers |
 | **padding-top** | get top padding of one layer to top image border order between two layers |
 | **padding-bottom** | get bottom padding of one layer to bottom image border order between two layers |
 
 |Position||
-|-|-|
+|----------|---|
 | **left** | get left offset of one layer to left image border order between two layers |
 | **right** | get right offset of one layer to right image border order between two layers |
 | **top** | get top offset of one layer to top image border order between two layers |
