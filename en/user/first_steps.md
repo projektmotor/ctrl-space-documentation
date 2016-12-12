@@ -45,7 +45,7 @@ This is nice, but the real world looks a bit different. Your designer has other 
 you may have. Not every part of the graphic might be available as layer, or some parts consist of multiple layers which you 
 may need as one merged layer.
 
-Therefor the CSImageViewer comes with several tools. In this turial we will only have a look at one tool, layer
+Therefor the CSImageViewer comes with several tools. In this tutorial we will only have a look at one tool, layer
 merging. If you need Information about the other tools available in the CSImageViewer component, you can read the chapter
 [The CSImageViewer](/en/user/CSImage_viewer_tools.md).
 
