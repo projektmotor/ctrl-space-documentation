@@ -39,7 +39,7 @@ and select layers you need informations from. Therefor open a CSImage via Projec
  
 **NOTE:** If there is no CSImage available, see chapter [Import Graphics](#Import_Graphics).
 
-![Using the ImageViewer - layer selection](/images/first_steps_CSImage_viewer_layer_selection.png)
+![Using the ImageViewer - layer selection](/images/first_steps_slimage_viewer_layer_selection.png)
 
 This is nice, but the real world looks a bit different. Your designer has other requirements to the graphics structure than
 you may have. Not every part of the graphic might be available as layer, or some parts consist of multiple layers which you 
@@ -49,8 +49,8 @@ Therefor the CSImageViewer comes with several tools. In this tutorial we will on
 merging. If you need Information about the other tools available in the CSImageViewer component, you can read the chapter
 [The CSImageViewer](/en/user/CSImage_viewer_tools.md).
 
-![Using the ImageViewer - multiple layer selection](/images/first_steps_CSImage_viewer_merge_selection.png)
-![Using the ImageViewer - merged layer name](/images/first_steps_CSImage_viewer_merge_layer_name.png)
+![Using the ImageViewer - multiple layer selection](/images/first_steps_slimage_viewer_merge_selection.png)
+![Using the ImageViewer - merged layer name](/images/first_steps_slimage_viewer_merge_layer_name.png)
 
 In our example, the RSS icon consists of two layers. The white circle and the icon itself. Later in this tutorial we want to 
 save this RSS icon as image. To achive this, we have to merge the two layers into one single layer, which is then exported as
